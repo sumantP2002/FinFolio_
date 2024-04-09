@@ -31,8 +31,8 @@ app.get('*', (req, res) => {
 
 const server = () => {
     db();
-    app.listen(PORT, () => {
-        console.log('you are listening to port : ' , PORT);
+    app.listen(4000, () => {
+        console.log('you are listening to port : ' , 4000);
     })
 }
 
